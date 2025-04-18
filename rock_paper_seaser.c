@@ -12,27 +12,27 @@ int main()
     printf("\nEnter (1. Rock 2.Paper 3.Seassor): ");
     scanf("%d",&user);
     int computer = NumberGenerate(3);
-    printf("\ncomputer : %d",computer);
+    printf("computer : %d",computer);
     if(user == 1 && computer == 2){
-        printf("\nResult: compuetr win");
+        printf("\nResult: compuetr win\n");
     }
     else if(user == 2 && computer == 1){
-        printf("\nResult: you win");
+        printf("\nResult: you win\n");
     }
     else if(user == 3 && computer == 1){
-        printf("\nResult: computer win");
+        printf("\nResult: computer win\n");
     }
     else if(user == 1 && computer ==3){
-        printf("\nResult: user win");
+        printf("\nResult: user win\n");
     }
     else if(user == 2 && computer == 3 ){
-        printf("\nResult: computer win");
+        printf("\nResult: computer win\n");
     }
     else if(user == 3 && computer == 2){
-        printf("\nResult: user win");
+        printf("\nResult: user win\n");
     }
     else{
-        printf("\nResult: draw");
+        printf("\nResult: draw\n");
     }
 
     
