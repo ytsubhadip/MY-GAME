@@ -14,25 +14,25 @@ int main()
     int computer = NumberGenerate(3);
     printf("\ncomputer : %d",computer);
     if(user == 1 && computer == 2){
-        printf("\ncompuetr win");
+        printf("\nResult: compuetr win");
     }
     else if(user == 2 && computer == 1){
-        printf("\nyou win");
+        printf("\nResult: you win");
     }
     else if(user == 3 && computer == 1){
-        printf("\ncomputer win");
+        printf("\nResult: computer win");
     }
     else if(user == 1 && computer ==3){
-        printf("\nuser win");
+        printf("\nResult: user win");
     }
     else if(user == 2 && computer == 3 ){
-        printf("\ncomputer win");
+        printf("\nResult: computer win");
     }
     else if(user == 3 && computer == 2){
-        printf("\nuser win");
+        printf("\nResult: user win");
     }
     else{
-        printf("\ndraw");
+        printf("\nResult: draw");
     }
 
     
