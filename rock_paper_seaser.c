@@ -39,7 +39,10 @@ int game(int computer){
 }
 int main()
 {
-
+    char user_name[100];
+    printf("Enter your name: ");
+    fgets(user_name,100,stdin);
+    printf("----Wellcome %s\n",user_name);
     int i=1;
     while(i<=3){
          int num = NumberGenerate(3);
